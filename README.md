@@ -9,20 +9,19 @@
 
 ## Installing
 ```sh
-# Clone this repository
-git clone https://github.com/walangkaji/litensi-api.git
-
-# Including dev tools
-composer install
-
-# Without dev tools
-composer install --no-dev
+composer require walangkaji/litensi-api
 ```
 ### Example
 
 Please retrieve the API ID and Key from the following link: https://litensi.id/profile/api
 
 ```php
+<?php
+
+use walangkaji\LitensiAPI\Litensi;
+
+require __DIR__ . '/vendor/autoload.php';
+
 $apiId  = 000;
 $apiKey = 'xxxxxxxxxxxxx';
 
