@@ -1,0 +1,11 @@
+parameters:
+    level: max
+    paths:
+        - src
+    checkTooWideReturnTypesInProtectedAndPublicMethods: true
+    #checkUninitializedProperties: true
+    treatPhpDocTypesAsCertain: false
+    ignoreErrors:
+        - identifier: missingType.iterableValue
+        #- identifier: property.onlyWritten
+        #- identifier: missingType.generics
